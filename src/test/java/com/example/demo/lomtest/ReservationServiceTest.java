@@ -37,7 +37,6 @@ public class ReservationServiceTest {
 	    public void 예약정보목록조회() {
 	        List<ReservationDTO> list = service.getList();
 	        System.out.println("예약 목록 조회 결과 : ");
-	        list.forEach(System.out::println);
 	    }
 	   
 
